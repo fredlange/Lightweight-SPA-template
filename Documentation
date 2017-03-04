@@ -1,0 +1,46 @@
+
+
+APP FUNCTIONALITY
+index.php - Main organizer file
+/includes/navigation.controller.php - Navigation functions
+/includes/main.controller.php - default controller
+/includes/form.controller.php - controller for contact forms
+/includes/authorize.php - Authorizes login attempts (SiteOffline)
+/includes/widgetDisplay.php - Renders widgets onto app with DisplayWidgetPosition().
+/includes/sendmail.php - PHPMailer function to send email
+
+
+
+USER CONFIGURATED
+config.php - Settings
+/styles/style.css - Main CSS style
+main.php - Main body frame
+/widgets/ - Contains widgets
+/pages/ - Contains pages
+
+PRE-DEFINED WIDGETS
+	Submenu - See example /widgets/page1_submenu.php
+	Contact form - See example /widgets/contactForm.php
+
+AVAILABLE CONTROLLERS
+Use config.php to declare controller to pages.
+	mainController - default controller. If no controller is declared. This one will be used.
+	NavigationController - Only for navigation purpose
+	WidgetController - embeded in DisplayWidgetPosition() function
+	FormController - Needed if page contains form
+
+
+
+DEVELOPMENT TO DO
+* Widgets should be inbedded in conditional div so their parent div can be hidden if no widgets are present in the div.
+* Create new main and sub menu using ng-repeat.
+* Replace all system messages with language specific strings from config.php file
+* Separate all user custom files from system files
+* Generalize email functions to be defined inside config.php (Separation of user files and system files)
+* SEO-friendly , make specific titles for example.
+* W3C validation
+* Make body class specific for each page
+* Module URL * = all pages
+
+KNOWN BUG
+none

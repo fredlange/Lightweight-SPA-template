@@ -1,0 +1,63 @@
+/* Set base margin and padding to null */
+*{margin: 0px; padding: 0px;}
+body{
+	font-family: "Sentinel A", "Sentinel B", Georgia, serif !important;
+}
+
+#header{height: 70px; background-color:#ccc;}
+
+#menu{float: right;}
+  #menu ul{list-style: none;}
+  #menu li{float:left; padding: 5px;}
+
+#DevWindow{
+	height: 200px;
+	background: #efefef;
+	clear: both;
+}
+
+/* SITE OFFLINE */
+#SiteOffline{
+	text-align: center;
+	margin-top: 200px;
+}
+#SiteOffline form {
+	margin-top: 50px;
+}
+#OfflineBorder{
+	text-align: center;
+	background-color: blue;
+	color:white;
+}
+
+
+#widget_right{
+	float: right;
+
+	width: 200px;
+	border: 1px solid blue;
+}
+#widget_left{
+	float: left;
+
+	width: 200px;
+	border: 1px solid red;
+}
+
+#footer{
+	clear:both;
+}
+
+/* Simple styling for the contact form */
+#form_container{
+	width: 400px;
+}
+.bg-danger, .bg-success{
+	padding: 10px;
+	margin: 10px 0px;
+	background: red;
+	color: white;
+}
+	.bg-success{
+		background-color: green;
+	}
