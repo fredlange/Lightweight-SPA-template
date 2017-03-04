@@ -1,2 +1,2 @@
-# Lightweight-SPA-template
+# Lightweight-SPA-template (Early stages, do not use)
 Lightweight single page application using AngularJS and php. Not database dependent.
