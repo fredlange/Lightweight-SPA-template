@@ -73,8 +73,8 @@ $WidgetAttachment = [
     $SMTP_SMTPDebug  =	0;                      // enables SMTP debug information (for testing)
     $SMTP_SMTPAuth   =	true;                   // enable SMTP authentication
     $SMTP_Port       =	587;                    // set the SMTP port for the SMTP server
-    $SMTP_Username   =	"form@uneedit.se";      // SMTP account username example
-    $SMTP_Password   =	"90Cuz43r";             // SMTP account password example
+    $SMTP_Username   =	"test@example.se";      // SMTP account username example
+    $SMTP_Password   =	"testpass";             // SMTP account password example
 
 
 ?>
